@@ -1,0 +1,45 @@
+#back{
+    background-image: url('../imgs/weback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    height: 40px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(212, 210, 210);
+    outline: none;
+}
+input:focus{
+    border: 2px solid blue;
+}
+textarea{
+    padding: 10px 0px 0px 10px;
+    height: 200px;
+    outline: none;
+}
+textarea:focus{
+    border: 2px solid blue;
+}
+
+@media all and (max-width:670px){
+    #profile{
+        display: none;
+    }
+    #about{
+        border: 2px solid rgb(235, 234, 234);
+    }
+    #Intro{
+        margin-top: 30px;
+    }
+    #rightSize{
+        margin-left: 60px;
+    }
+    #imgRight{
+        margin-top: 20px;
+    }
+    #imgLeft{
+        margin-top: 20px;
+    }
+}
